@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main -B C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug
+-- Found SFML .. in C:/SFML/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/TEMP/sokoban2-main/sokoban2-main/sokoban2-main/sokoban2-main/sokoban-main/sokoban-main/cmake-build-debug
