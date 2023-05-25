@@ -1,5 +1,0 @@
-"C:\study\CLion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\study\cpp\sokoban3-main\sokoban3-main -B C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug
--- Found SFML .. in C:/SFML/include
--- Configuring done
--- Generating done
--- Build files have been written to: C:/study/cpp/sokoban3-main/sokoban3-main/cmake-build-debug
