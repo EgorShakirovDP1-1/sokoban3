@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\study\CLion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\study\CLion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main
+CMAKE_SOURCE_DIR = C:\study\cpp\sokoban3-main\sokoban3-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug
+CMAKE_BINARY_DIR = C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/Sokoban.dir/clean
 CMakeFiles/Sokoban.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sokoban.dir\build.make CMakeFiles/Sokoban.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sokoban.dir\build.make CMakeFiles/Sokoban.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Sokoban"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Sokoban"
 .PHONY : CMakeFiles/Sokoban.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sokoban.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sokoban.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Sokoban.dir/rule
 
 # Convenience name for target.

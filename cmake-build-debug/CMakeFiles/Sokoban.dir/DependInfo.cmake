@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/TEMP/sokoban2-main/sokoban2-main/sokoban2-main/sokoban2-main/sokoban-main/sokoban-main/level_generator.cpp" "CMakeFiles/Sokoban.dir/level_generator.cpp.obj" "gcc" "CMakeFiles/Sokoban.dir/level_generator.cpp.obj.d"
-  "C:/Users/TEMP/sokoban2-main/sokoban2-main/sokoban2-main/sokoban2-main/sokoban-main/sokoban-main/main.cpp" "CMakeFiles/Sokoban.dir/main.cpp.obj" "gcc" "CMakeFiles/Sokoban.dir/main.cpp.obj.d"
+  "C:/study/cpp/sokoban3-main/sokoban3-main/level_generator.cpp" "CMakeFiles/Sokoban.dir/level_generator.cpp.obj" "gcc" "CMakeFiles/Sokoban.dir/level_generator.cpp.obj.d"
+  "C:/study/cpp/sokoban3-main/sokoban3-main/main.cpp" "CMakeFiles/Sokoban.dir/main.cpp.obj" "gcc" "CMakeFiles/Sokoban.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

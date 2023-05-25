@@ -1,3 +1,3 @@
-C:/Users/TEMP/sokoban2-main/sokoban2-main/sokoban2-main/sokoban2-main/sokoban-main/sokoban-main/cmake-build-debug/CMakeFiles/Sokoban.dir
-C:/Users/TEMP/sokoban2-main/sokoban2-main/sokoban2-main/sokoban2-main/sokoban-main/sokoban-main/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TEMP/sokoban2-main/sokoban2-main/sokoban2-main/sokoban2-main/sokoban-main/sokoban-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/study/cpp/sokoban3-main/sokoban3-main/cmake-build-debug/CMakeFiles/Sokoban.dir
+C:/study/cpp/sokoban3-main/sokoban3-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/study/cpp/sokoban3-main/sokoban3-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

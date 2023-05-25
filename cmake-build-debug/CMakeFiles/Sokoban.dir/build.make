@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\study\CLion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\study\CLion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main
+CMAKE_SOURCE_DIR = C:\study\cpp\sokoban3-main\sokoban3-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug
+CMAKE_BINARY_DIR = C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Sokoban.dir/depend.make
@@ -72,31 +72,31 @@ CMakeFiles/Sokoban.dir/main.cpp.obj: CMakeFiles/Sokoban.dir/flags.make
 CMakeFiles/Sokoban.dir/main.cpp.obj: CMakeFiles/Sokoban.dir/includes_CXX.rsp
 CMakeFiles/Sokoban.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Sokoban.dir/main.cpp.obj: CMakeFiles/Sokoban.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sokoban.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sokoban.dir/main.cpp.obj -MF CMakeFiles\Sokoban.dir\main.cpp.obj.d -o CMakeFiles\Sokoban.dir\main.cpp.obj -c C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sokoban.dir/main.cpp.obj"
+	C:\study\CLion\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sokoban.dir/main.cpp.obj -MF CMakeFiles\Sokoban.dir\main.cpp.obj.d -o CMakeFiles\Sokoban.dir\main.cpp.obj -c C:\study\cpp\sokoban3-main\sokoban3-main\main.cpp
 
 CMakeFiles/Sokoban.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sokoban.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\main.cpp > CMakeFiles\Sokoban.dir\main.cpp.i
+	C:\study\CLion\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\study\cpp\sokoban3-main\sokoban3-main\main.cpp > CMakeFiles\Sokoban.dir\main.cpp.i
 
 CMakeFiles/Sokoban.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sokoban.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\main.cpp -o CMakeFiles\Sokoban.dir\main.cpp.s
+	C:\study\CLion\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\study\cpp\sokoban3-main\sokoban3-main\main.cpp -o CMakeFiles\Sokoban.dir\main.cpp.s
 
 CMakeFiles/Sokoban.dir/level_generator.cpp.obj: CMakeFiles/Sokoban.dir/flags.make
 CMakeFiles/Sokoban.dir/level_generator.cpp.obj: CMakeFiles/Sokoban.dir/includes_CXX.rsp
 CMakeFiles/Sokoban.dir/level_generator.cpp.obj: ../level_generator.cpp
 CMakeFiles/Sokoban.dir/level_generator.cpp.obj: CMakeFiles/Sokoban.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sokoban.dir/level_generator.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sokoban.dir/level_generator.cpp.obj -MF CMakeFiles\Sokoban.dir\level_generator.cpp.obj.d -o CMakeFiles\Sokoban.dir\level_generator.cpp.obj -c C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\level_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sokoban.dir/level_generator.cpp.obj"
+	C:\study\CLion\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sokoban.dir/level_generator.cpp.obj -MF CMakeFiles\Sokoban.dir\level_generator.cpp.obj.d -o CMakeFiles\Sokoban.dir\level_generator.cpp.obj -c C:\study\cpp\sokoban3-main\sokoban3-main\level_generator.cpp
 
 CMakeFiles/Sokoban.dir/level_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sokoban.dir/level_generator.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\level_generator.cpp > CMakeFiles\Sokoban.dir\level_generator.cpp.i
+	C:\study\CLion\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\study\cpp\sokoban3-main\sokoban3-main\level_generator.cpp > CMakeFiles\Sokoban.dir\level_generator.cpp.i
 
 CMakeFiles/Sokoban.dir/level_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sokoban.dir/level_generator.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\level_generator.cpp -o CMakeFiles\Sokoban.dir\level_generator.cpp.s
+	C:\study\CLion\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\study\cpp\sokoban3-main\sokoban3-main\level_generator.cpp -o CMakeFiles\Sokoban.dir\level_generator.cpp.s
 
 # Object files for target Sokoban
 Sokoban_OBJECTS = \
@@ -116,7 +116,7 @@ Sokoban.exe: C:/SFML/lib/libsfml-audio-d.a
 Sokoban.exe: CMakeFiles/Sokoban.dir/linklibs.rsp
 Sokoban.exe: CMakeFiles/Sokoban.dir/objects1.rsp
 Sokoban.exe: CMakeFiles/Sokoban.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Sokoban.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Sokoban.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sokoban.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/Sokoban.dir/clean:
 .PHONY : CMakeFiles/Sokoban.dir/clean
 
 CMakeFiles/Sokoban.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug C:\Users\TEMP\sokoban2-main\sokoban2-main\sokoban2-main\sokoban2-main\sokoban-main\sokoban-main\cmake-build-debug\CMakeFiles\Sokoban.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\study\cpp\sokoban3-main\sokoban3-main C:\study\cpp\sokoban3-main\sokoban3-main C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug C:\study\cpp\sokoban3-main\sokoban3-main\cmake-build-debug\CMakeFiles\Sokoban.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Sokoban.dir/depend
 

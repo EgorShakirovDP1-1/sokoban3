@@ -23,6 +23,15 @@ int SIZEY = 12;
 #define PLACEBOX 6
 #define EMPTY 0
 
+
+void initialize_matrix();
+void place_boxes_and_targets(int num_boxes);
+void place_player();
+bool can_reach_all_targets(int x, int y, std::vector<std::pair<int, int>> targets);
+void place_walls(int walls_num);
+
+extern char matrix[MAX_SIZEX][MAX_SIZEX];
+
 char board[MAX_SIZEX][MAX_SIZEY] = {
         { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
         { 1, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 1 },
@@ -38,7 +47,7 @@ char board[MAX_SIZEX][MAX_SIZEY] = {
         { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 };
 Vector2i human_vect(6, 9);
-int level = 2;
+
 
 Sprite box;
 Sprite place;
@@ -47,8 +56,37 @@ Sprite wall;
 Sprite pusto;
 Sprite placebox;
 
+
 vector <Vector2i> boxes;
 vector <Vector2i> places;
+
+
+
+void matrix_to_board()
+{
+    for (size_t i = 0; i < SIZEX; i++)
+    {
+        for (size_t j = 0; j < SIZEY; j++)
+        {
+            board[i][j] = EMPTY;
+            if (matrix[i][j] == '.')
+                board[i][j] = PLACE;
+            else
+            if (matrix[i][j] == '$')
+                board[i][j] = BOX;
+            else
+            if (matrix[i][j] == '$')
+                board[i][j] = BOX;
+            if (matrix[i][j] == '1')
+                board[i][j] = WALL;
+            if (matrix[i][j] == '@')
+            {
+                human_vect.x = j;
+                human_vect.y = i;
+            }
+        }
+    }
+}
 
 bool readposition(int level)
 {
@@ -95,7 +133,24 @@ bool readposition(int level)
 }
 void loadPosition(int level)
 {
-    readposition(level);
+    //readposition(level);
+    initialize_matrix();
+    place_walls(11);
+    place_boxes_and_targets(5);
+    place_player();
+
+
+    matrix_to_board();
+    vector<pair<int, int>> target;
+    for (size_t i = 0; i < SIZEX; i++)
+    {
+        for (size_t j = 0; j < SIZEY; j++)
+        {
+            if (board[i][j] == PLACE)
+                target.push_back(std::make_pair(i, j));
+        }
+    }
+    bool result = can_reach_all_targets(human_vect.x, human_vect.y, target);
     for (int i = 0; i < SIZEX; i++)
     {
         for (int j = 0; j < SIZEY; j++)
@@ -121,6 +176,7 @@ void loadPosition(int level)
             else
             if (board[i][j] == 6)
                 placebox.setPosition(i * SIZEF, j * SIZEF);
+
         }
     }
     human.setPosition(human_vect.x * SIZEF, human_vect.y * SIZEF);
@@ -152,7 +208,13 @@ void make_step(int dx, int dy)
             human_vect.x += dx;
             human_vect.y += dy;
         }
+
+
     }
+    if (human_vect.x == PLACE && human_vect.y == PLACE){
+
+    }
+
 }
 bool no_free_boxes()
 {
@@ -174,9 +236,9 @@ void work(int level)
     window.setFramerateLimit(60);
 
     Texture t2, t7;
-    t2.loadFromFile("images/background.jpg");
+
     t7.loadFromFile("images/figures.png");
-    //window.setSize(Vector2u(SIZEX * SIZEF, SIZEY * SIZEF));
+    window.setSize(Vector2u(SIZEX * SIZEF, SIZEY * SIZEF));
 
     box.setTexture(t7);		box.setTextureRect(IntRect(0, 0, SIZEF, SIZEF));
     place.setTexture(t7);   place.setTextureRect(IntRect(SIZEF, 0, SIZEF, SIZEF));
@@ -184,6 +246,7 @@ void work(int level)
     wall.setTexture(t7);    wall.setTextureRect(IntRect(3 * SIZEF, 0, SIZEF, SIZEF));
     pusto.setTexture(t7);   pusto.setTextureRect(IntRect(4 * SIZEF, 0, SIZEF, SIZEF));
     placebox.setTexture(t7);   placebox.setTextureRect(IntRect(5 * SIZEF, 0, SIZEF, SIZEF));
+
 
 
     //int even = 0;
@@ -249,6 +312,7 @@ void work(int level)
                     placebox.setPosition(i * SIZEF, j * SIZEF);
                     window.draw(placebox);
                 }
+
             }
         }
         human.setPosition(human_vect.x * SIZEF, human_vect.y * SIZEF);
@@ -261,13 +325,13 @@ void work(int level)
         window.display();
     }
 }
-
 int main(int argv, char *argc[])
 {
-    for (int level = 0; level <= 3; level ++)
+    for (int level = 0; level <= 10; level ++)
     {
         work(level);
     }
 
     return 0;
 }
+/*Прога готова, можно отправлять, но я выебнусь*/
